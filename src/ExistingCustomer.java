@@ -16,7 +16,7 @@ public class ExistingCustomer extends NewAccount {
             case 1:
                 System.out.println("Please Enter the amount to be debited:");
                 debit = scanner.nextInt();
-                System.out.println("User having registered mobile no." + mobileNo + " debited " + debit + "rupees from the account no. " + accNo);
+                System.out.println("User having registered mobile no:" + mobileNo + " debited " + debit + "rupees from the account no. " + accNo);
                 break;
             case 2:
                 System.out.println("Please Enter Credit Amount:");
