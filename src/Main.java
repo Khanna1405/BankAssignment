@@ -36,7 +36,7 @@ public class Main {
                 UserOption=sc.nextInt();
                 switch(UserOption){
                     case 1:
-                        CustInput.CustomerDetail();
+                        CustInput.ExistCustomerDetail();
                         break;
                     case 2:
                         CustInput.Transaction();

@@ -31,7 +31,7 @@ public class Customer extends NewAccount {
 
     }
 
-
+/*
     void BankStatement() {
         System.out.println("Please enter 1 for debited amount statement and 2 for credited amt statement ");
         Scanner sc = new Scanner(System.in);
@@ -47,7 +47,8 @@ public class Customer extends NewAccount {
                 System.out.println("Not a valid option");
         }
 
-
     }
+
+ */
 }
 

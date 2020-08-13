@@ -18,10 +18,12 @@ public class NewAccount {
     }
 
     public static void CustomerDetail() {
-        System.out.println("Hi," + name + " you have successfully added account number" +accNo+" with " +acctype + " account with PAN number:" + PAN + " and emailID: " + emailID + "& Mobile No.:" + mobileNo+" has been registered with our bank on"+getDate());
+        System.out.println("Hi," + name + " you have successfully added account number " +accNo+" with " +acctype + " account with PAN number:" + PAN + " and emailID: " + emailID + " & Mobile No.:" + mobileNo+" has been registered with our bank on"+getDate());
 
     }
-
+public static void ExistCustomerDetail(){
+    System.out.println("Name: "+name+", Account no.: "+accNo+ ", Account Type: "+acctype+", Registered mobile number: "+mobileNo+", EmailID: "+emailID);
+}
 
 
 }
