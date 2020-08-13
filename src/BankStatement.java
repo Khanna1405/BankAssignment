@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
 public class BankStatement extends Customer{
-    void BankStatement() {
+    public static int UserInput;
+
+    static void BankStatement() {
         System.out.println("Please enter 1 for debited amount statement and 2 for credited amt statement ");
         Scanner sc = new Scanner(System.in);
         UserInput = sc.nextInt();

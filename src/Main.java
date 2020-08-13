@@ -10,23 +10,23 @@ public class Main {
         while (input == 1) {
             System.out.println(" for new customer press 1 and for existing customer press 2");
             UserInput = sc.nextInt();
-            Customer CustInput= new Customer();
-            BankStatement CustInput3=new BankStatement();
+          //  Customer CustInput= new Customer();
+           BankStatement CustInput3=new BankStatement();
 
 
             if (UserInput==1){
                 System.out.println("Please Enter Customer Name:");
-                CustInput.name=sc.next();
+                BankStatement.name=sc.next();
                 System.out.println("Please Enter registered mobile no. ");
-                CustInput.mobileNo=sc.next();
+                BankStatement.mobileNo=sc.next();
                 System.out.println("Please Entered PAN number");
-                CustInput.PAN=sc.next();
+                BankStatement.PAN=sc.next();
                 System.out.println(" please entered registered email id:");
-                CustInput.emailID=sc.next();
+                BankStatement.emailID=sc.next();
                 System.out.println(" Please add your account type:");
-                CustInput.acctype=sc.next();
+                BankStatement.acctype=sc.next();
                 System.out.println("Please add branch code:");
-                CustInput.Branch=sc.next();
+                BankStatement.Branch=sc.next();
                 Account.CustomerDetail();
 
 
@@ -36,13 +36,13 @@ public class Main {
                 UserOption=sc.nextInt();
                 switch(UserOption){
                     case 1:
-                        CustInput.ExistCustomerDetail();
+                        BankStatement.ExistCustomerDetail();
                         break;
                     case 2:
-                        CustInput.Transaction();
+                        BankStatement.Transaction();
                         break;
                     case 3:
-                        CustInput3.BankStatement();
+                        BankStatement.BankStatement();
                         break;
                     default:
                         System.out.println("not a valid input");

@@ -3,12 +3,11 @@ import java.util.Scanner;
 
 public class Customer extends Account {
 
-
-    public int  debit, Credit, UserInput;
-    public Date date;
+    public static int  debit, Credit, UserInput;
 
 
-    void Transaction() {
+
+     static void Transaction() {
         System.out.println("Please choose Transaction option: enter 1 for debit and 2 for Credit:");
         Scanner scanner = new Scanner(System.in);
         UserInput = scanner.nextInt();
