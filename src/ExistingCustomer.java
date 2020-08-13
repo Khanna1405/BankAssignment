@@ -39,8 +39,10 @@ public class ExistingCustomer extends NewAccount {
         switch (UserInput) {
             case 1:
                 System.out.println(name + " have " + accNo + "account no." + " having " + acctype + " account type " + "debited " + debit + "rupees on " + getDate());
+                break;
             case 2:
                 System.out.println(name + " have " + accNo + "account no." + " having " + acctype + " account type " + "Credited " + Credit + "rupees on " + getDate());
+                break;
             default:
                 System.out.println("Not a valid option");
         }

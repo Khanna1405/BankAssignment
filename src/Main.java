@@ -15,7 +15,7 @@ public class Main {
 
             if (UserInput==1){
                 System.out.println("Please Enter Customer Name:");
-                CustInput.name=sc.nextLine();
+                CustInput.name=sc.next();
                 System.out.println("Please Enter registered mobile no. ");
                 CustInput.mobileNo=sc.next();
                 System.out.println("Please Entered PAN number");
