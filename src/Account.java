@@ -3,7 +3,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class NewAccount {
+public class Account {
     public static String name;
     public static int accNo=523456;
     public  static String PAN, acctype,gender,emailID,Branch;

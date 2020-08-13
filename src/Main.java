@@ -27,7 +27,7 @@ public class Main {
                 CustInput.acctype=sc.next();
                 System.out.println("Please add branch code:");
                 CustInput.Branch=sc.next();
-                NewAccount.CustomerDetail();
+                Account.CustomerDetail();
 
 
             }
