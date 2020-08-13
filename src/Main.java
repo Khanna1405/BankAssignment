@@ -10,8 +10,9 @@ public class Main {
         while (input == 1) {
             System.out.println(" for new customer press 1 and for existing customer press 2");
             UserInput = sc.nextInt();
-            NewAccount CustInput= new NewAccount();
-            ExistingCustomer CustInput2=new ExistingCustomer();
+            Customer CustInput= new Customer();
+            BankStatement CustInput3=new BankStatement();
+
 
             if (UserInput==1){
                 System.out.println("Please Enter Customer Name:");
@@ -38,10 +39,10 @@ public class Main {
                         CustInput.CustomerDetail();
                         break;
                     case 2:
-                        CustInput2.Transaction();
+                        CustInput.Transaction();
                         break;
                     case 3:
-                        CustInput2.BankStatement();
+                        CustInput3.BankStatement();
                         break;
                     default:
                         System.out.println("not a valid input");
