@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BankStatement extends Customer{
+public class BankStatement extends BankTransaction{
     public static int UserInput;
 
     static void BankStatement() {
@@ -16,6 +16,7 @@ public class BankStatement extends Customer{
                 break;
             case 3:
                 System.out.println("Hi, "+name+ " you have currently "+ (Credit-debit)+ " rupees in your account");
+                break;
             default:
                 System.out.println("Not a valid option");
         }

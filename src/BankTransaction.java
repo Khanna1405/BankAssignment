@@ -1,7 +1,7 @@
 import java.util.Date;
 import java.util.Scanner;
 
-public class Customer extends Account {
+public class BankTransaction extends Account {
 
     public static int  debit, Credit, UserInput;
 
