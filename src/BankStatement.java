@@ -4,19 +4,18 @@ public class BankStatement extends Customer{
     public static int UserInput;
 
     static void BankStatement() {
-        System.out.println("Please enter 1 for debited amount statement and 2 for credited amt statement ");
+        System.out.println("Please enter 1 for debited amount statement and 2 for credited amt statement and 3 for current balance: ");
         Scanner sc = new Scanner(System.in);
         UserInput = sc.nextInt();
         switch (UserInput) {
             case 1:
-                //debit = sc.nextInt();
-
-                System.out.println(name + " have " + accNo + " account no. " + " having " + acctype + " account type " + " debited " + debit + " rupees on " + getDate());
+                System.out.println(name + " have  account no. : "+ accNo + " having " + acctype + " account type " + " debited " + debit + " rupees on " + getDate());
                 break;
             case 2:
-                //Credit = sc.nextInt();
-                System.out.println(name + " have account no. "+accNo + " having " + acctype + " account type Credited " + Credit + "rupees on " + getDate());
+                System.out.println(name + " have account no.: "+accNo + " having " + acctype + " account type Credited " + Credit + " rupees on " + getDate());
                 break;
+            case 3:
+                System.out.println("Hi, "+name+ " you have currently "+ (Credit-debit)+ " rupees in your account");
             default:
                 System.out.println("Not a valid option");
         }
