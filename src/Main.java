@@ -10,8 +10,8 @@ public class Main {
         while (input == 1) {
             System.out.println(" for new customer press 1 and for existing customer press 2");
             UserInput = sc.nextInt();
-          //  Customer CustInput= new Customer();
-           BankStatement CustInput3=new BankStatement();
+
+           BankStatement CustInput=new BankStatement();
 
 
             if (UserInput==1){
@@ -36,13 +36,13 @@ public class Main {
                 UserOption=sc.nextInt();
                 switch(UserOption){
                     case 1:
-                        BankStatement.ExistCustomerDetail();
+                        CustInput.ExistCustomerDetail();
                         break;
                     case 2:
-                        BankStatement.Transaction();
+                        CustInput.Transaction();
                         break;
                     case 3:
-                        BankStatement.BankStatement();
+                        CustInput.BankStatement();
                         break;
                     default:
                         System.out.println("not a valid input");
@@ -52,9 +52,10 @@ public class Main {
 
 
             }
+            System.out.println("do you want to continue then press 1 else press any other integer ");
+            input=sc.nextInt();
 
         }
-
 
     }
 }
