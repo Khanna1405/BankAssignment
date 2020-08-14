@@ -21,8 +21,6 @@ public class Main {
                 BankStatement.mobileNo=sc.next();
                 System.out.println("Please Entered PAN number");
                 BankStatement.PAN=sc.next();
-                System.out.println(" please entered registered email id:");
-                BankStatement.emailID=sc.next();
                 System.out.println(" Please add your account type:");
                 BankStatement.acctype=sc.next();
                 System.out.println("Please add branch code:");
