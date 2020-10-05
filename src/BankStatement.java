@@ -19,7 +19,8 @@ public class BankStatement extends BankTransaction{
                if (balance>1000)
                 System.out.println("Hi, "+name+ " you have currently "+ (Credit-debit)+ " rupees in your account");
                 else if (balance<=1000)
-                    System.out.println("Hi, "+name+ " You have insufficient balance.");
+                   System.out.println("Hi, "+name+ " you have currently "+ (Credit-debit)+ " rupees in your account");
+                    System.out.println( "You have insufficient balance. Please maintain required balance.");
                 break;
             default:
                 System.out.println("Not a valid option");
