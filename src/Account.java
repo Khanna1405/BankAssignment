@@ -9,6 +9,7 @@ public class Account {
     public  static String PAN, acctype,gender,emailID,Branch;
     public  static String mobileNo;
     Scanner sc=new Scanner(System.in);
+
     public  static String accNo(){
         accNo= Branch+"1234";
         return accNo;
@@ -27,7 +28,7 @@ public class Account {
         System.out.println("Hi, " + name + " you have successfully added  " +acctype + " account with PAN number:" + PAN + " and  Mobile No.:" + mobileNo+" with this account number "+accNo()+" on: "+getDate());
 
     }
-public static void ExistCustomerDetail(){
+    public static void ExistCustomerDetail(){
     System.out.println("Name: "+name+", Account no.: "+accNo+ ", Account Type: "+acctype+", Registered mobile number: "+mobileNo);
 }
 
